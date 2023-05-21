@@ -55,39 +55,123 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
-                    <h2 class="">Materi Kursus</h2>
+                <div class="flex flex-col gap-2">
+                    <h2 class="text-2xl">Materi Kursus</h2>
                     <p>27 sections • 165 lectures • 24h 54m total length</p>
 
-
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-                        class="text-white w-full bg-background font-medium rounded-lg text-sm px-4 py-2.5 text-center flex gap-4 items-center border border-second"
-                        type="button"><img src="./../../img/vector.png" alt="" class="w-5"> Pengantar</button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdown"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
-                                    out</a>
-                            </li>
-                        </ul>
+                    <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-background text-white">
+                        <h2 id="accordion-color-heading-1">
+                            <button type="button"
+                                class="flex items-center justify-between w-full p-5 font-medium text-left text-second border border-b-0 border-second"
+                                data-accordion-target="#accordion-color-body-1" aria-expanded="true"
+                                aria-controls="accordion-color-body-1">
+                                <span>Pengantar</span>
+                                <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+                            <ul class="p-5 border border-b-0 border-second">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
+                        <h2 id="accordion-color-heading-2">
+                            <button type="button"
+                                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-second"
+                                data-accordion-target="#accordion-color-body-2" aria-expanded="false"
+                                aria-controls="accordion-color-body-2">
+                                <span>Pengantar</span>
+                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+                            <ul class="p-5 border border-b-0 border-second">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
+                        <h2 id="accordion-color-heading-3">
+                            <button type="button"
+                                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-second "
+                                data-accordion-target="#accordion-color-body-3" aria-expanded="false"
+                                aria-controls="accordion-color-body-3">
+                                <span>Pengantar</span>
+                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+                            <ul class="p-5 border border-b-0 border-second">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
                     </div>
-
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h2 class="text-2xl">Deskripsi</h2>
+                    <div class="flex flex-col gap-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <img src="#" alt="gambar" class="border border-second h-60">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl. Fusce imperdiet tellus et lacus auctor accumsan. Aliquam sed dictum dolor. Pellentesque eu nisi euismod, accumsan lorem a, accumsan ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h2 class="text-2xl">Review</h2>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex px-12 py-4 gap-10 border border-second">
+                            <div class="flex flex-col items-center gap-2">
+                                <div class="bg-slate-400 rounded-full w-32 h-32"></div>
+                                <div class="flex flex-col gap-0.5 items-center">
+                                    <h3 class=" font-semibold text-center">Tatang Suratang</h3>
+                                    <p class="text-sm">Mahasiswa</p>
+                                </div>
+                            </div>
+                            <p class="text-sm pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl.</p>
+                        </div>
+                        <div class="flex px-12 py-4 gap-10 border border-second">
+                            <div class="flex flex-col items-center gap-2">
+                                <div class="bg-slate-400 rounded-full w-32 h-32"></div>
+                                <div class="flex flex-col gap-0.5 items-center">
+                                    <h3 class=" font-semibold text-center">Tatang Suratang</h3>
+                                    <p class="text-sm">Mahasiswa</p>
+                                </div>
+                            </div>
+                            <p class="text-sm pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl.</p>
+                        </div>
+                        <div class="flex px-12 py-4 gap-10 border border-second">
+                            <div class="flex flex-col items-center gap-2">
+                                <div class="bg-slate-400 rounded-full w-32 h-32"></div>
+                                <div class="flex flex-col gap-0.5 items-center">
+                                    <h3 class=" font-semibold text-center">Tatang Suratang</h3>
+                                    <p class="text-sm">Mahasiswa</p>
+                                </div>
+                            </div>
+                            <p class="text-sm pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tortor sit amet accumsan accumsan. Proin in rhoncus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pulvinar mi vel vestibulum dictum. Sed luctus erat vitae augue ultrices efficitur. Suspendisse vestibulum metus non feugiat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin massa magna, commodo lobortis metus ac, imperdiet commodo nisl.</p>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
